@@ -1,0 +1,151 @@
+.nav-bar{
+	width:100%;
+	height:50px;
+	box-sizing: border-box;
+}
+.nav-bar ul{
+	width:780px;
+	height:100%;
+	margin: 0 auto;
+	list-style: none;
+	position: relative;
+
+}
+.nav-bar ul li{
+	width:auto;
+	float:left;
+	text-align: center;
+	padding: 10px;
+	margin-right: 20px;
+	cursor: pointer;
+	transition: all 0.4s ease;
+}
+.nav-bar ul li:last-child{
+	margin-right: 0px;
+}
+.nav-bar ul li:hover{
+	color: #ffffff;
+	background-color: #00FFFF;
+}
+.mega-menu{
+	position: absolute;
+	top:40px;
+	left:-600px;
+	width:1200px;
+	height: 500px;
+	background: #ffffff;
+	transition: all 0.4s ease;
+	padding: 20px;
+	box-sizing: border-box;
+	display: none;
+	border: 1px solid #D3D3D3;
+}
+.inner-mega-menu{
+	width:24%;
+	float: left;
+	margin-right: 1%;
+
+}
+.inner-mega-menu hr{
+	margin-left:0px;
+}
+.inner-mega-menu:last-child{
+	margin-right: 0%;
+}
+.inner-mega-menu p{
+	padding: 0px;
+	transition: all 0.4s ease;
+}
+.nav-bar ul li:hover .mega-menu{
+	color: #000000;
+	display: block;
+	z-index: 1;
+}
+.nav-bar ul li .mega-menu p:hover{
+	color:#18bc9c;
+}
+#row1{
+	background: #000000;
+	color: #FFFFFF;
+	padding: 10px;
+	max-height: 40px;
+}
+#row3{
+	padding: 10px;
+	margin-bottom: 20px;
+}
+#row4 b{
+	margin:20px;
+	font-size: 20px;
+}
+#row4 hr{
+	margin-left:20px;
+	margin-top:10px;
+	width:10%;
+	border-top: 1px solid #00FFFF;
+}
+#row6 b{
+	margin:20px;
+}
+#row6 hr{
+	margin-top:10px;
+	margin-left:20px;
+	width:10%;
+	border-top: 1px solid #00FFFF;
+}
+#brand {
+	margin:20px;
+	padding:10px 30px;
+	
+}
+#border{
+	border: 1px solid #D3D3D3;
+}
+#choose{
+	margin-top:7px;
+	padding:10px;
+	margin-left: 20px;
+	margin-bottom:7px;
+}
+ #items{
+	width:15.6%;
+	text-align:center;
+	font-size:13px;
+	border:1px solid #D3D3D3;
+	margin:5px;
+}
+#items img{
+	width: auto;
+	height: 120px;
+	max-width: 180px;
+}
+#row4 img{
+	margin-top:20px;
+	width: auto;
+	height: 180px;
+	max-width: 320px;
+	margin-bottom: 10px;
+}
+#items2{
+	text-align: center;
+}
+#items2 hr{
+	margin:10px;
+}
+#row9 #blog img{
+	padding: 5px;
+}
+
+#row9{
+	margin-top:5px;
+	background-color: #808080;
+	color: #FFFFFF;
+	padding-left:50px;
+	padding-top:5px;
+}
+#row10{
+	padding-left:50px;
+	background:#000000;
+	color:#FFFFFF;
+	padding-top:20px;
+}
