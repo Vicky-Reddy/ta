@@ -1,0 +1,51 @@
+
+#row1{
+	background-color: #000000;
+	color:#FFFFFF;
+	padding:10px;
+	max-height: 40px;
+}
+#row2{
+	padding:20px;
+}
+#row3{
+	padding:10px;
+}
+#row4{
+	border-top: 1px solid #C0C0C0;
+	margin-top : 10px;
+	margin-bottom : 10px;
+	margin-right : 70px;
+	margin-left : 120px;
+	border-bottom: 1px solid #C0C0C0;
+	padding: 10px;
+	line-height: 8px;
+}
+#row4 input{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#row4 #hone{
+	color:#b1bd92;
+} 
+#row4 #pone{
+	line-height: normal;
+	margin-left: 200px;
+}
+#row5 #blog img{
+	padding: 5px;
+}
+
+#row5{
+	background-color: #808080;
+	color: #FFFFFF;
+	padding-left:50px;
+	padding-top:5px;
+}
+#row6{
+	padding-left:50px;
+	background:#000000;
+	color:#FFFFFF;
+	padding-top:20px;
+}

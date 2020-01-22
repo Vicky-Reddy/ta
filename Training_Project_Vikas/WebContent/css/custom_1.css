@@ -1,0 +1,52 @@
+#row1{
+	background-color: #000000;
+	color:#FFFFFF;
+	padding:10px;
+	max-height: 40px;
+}
+#row2{
+	padding:20px;
+}#row3 #cont1{
+	padding:25px;
+}
+#row4 h4{
+	color:#808080;
+}
+#row4 #colu{
+	padding-right:120px;
+}
+#row4 p{
+	color:#808080;
+}
+#row4 b{
+	padding:0px;
+}
+#row4{
+	margin-left: 100px;
+	padding :20px;
+}
+#row4 input{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+#row4 button{
+	color:#00FFFF;
+	background-color:#FFFFFF;
+	border: 1px solid #00FFFF;
+	padding: 10px;
+	margin-left: 250px;
+}
+#row5 #blog img{
+	padding: 5px;
+}
+#row5{
+	background-color: #808080;
+	color: #FFFFFF;
+	padding-left:50px;
+	padding-top:5px;
+}
+#row6{
+	padding-left:50px;
+	background:#000000;
+	color:#FFFFFF;
+	padding-top:20px;
